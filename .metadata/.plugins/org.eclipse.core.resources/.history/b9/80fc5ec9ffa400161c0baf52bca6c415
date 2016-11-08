@@ -1,0 +1,39 @@
+package tic.tac.toe;
+
+public class Board {
+
+	public static Square[][] makeSquares() {
+		// Board.ArrayList<Square> squares = new ArrayList<>();
+		Square[][] squares = new Square[3][3];
+		squares[0] = null;
+
+		for (int i = 0; i < squares.length; i++) {
+			for (int j = 0; j < squares[i].length; j++) {
+				Square Square = new Square();
+				Square.SpaceMarker = (char) (j + 49);
+				squares[i][j] = Square;
+			}
+		}
+		/*
+		 * for (int i = 1; i < squares.size(); i++) {
+		 * System.out.println("Marker " + i + " " + squares.get(i).SpaceMarker);
+		 * }
+		 */
+		return squares;
+	}
+
+	public static void printGameBoard(Square[][] squares) {
+		int boardSpaces = 0;
+		for (int i = 0; i < squares.length; i++) {
+			for (int j = 0; j < squares[i].length; j++) {
+
+				System.out.print(squares[i][j].SpaceMarker);
+				boardSpaces++;
+				if (boardSpaces == 3) {
+					System.out.println();
+					boardSpaces = 0;
+				}
+			}
+		}
+	}
+}

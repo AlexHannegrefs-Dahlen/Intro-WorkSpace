@@ -1,0 +1,52 @@
+
+public class Maze {
+	public static void main(String[] args) {
+		char[][] array = new char[21][21];
+		for (int i = 0; i < 4; i++) {
+			array[1][i] = ' ';
+		}
+		for (int i = 2; i < 6; i++) {
+			array[i][3] = ' ';
+		}
+		for (int i = 4; i < 7; i++) {
+			array[5][i] = ' ';
+		}
+		array[4][6] = ' ';
+		array[6][6] = ' ';
+		array[7][6] = ' ';
+		array[6][5] = ' ';
+		array[6][6] = ' ';
+		array[6][7] = ' ';
+		array[6][8] = ' ';
+		array[6][9] = ' ';
+		array[6][10] = ' ';
+		array[6][11] = ' ';
+		array[6][12] = ' ';
+		array[6][13] = ' ';
+		array[7][13] = ' ';
+		array[8][13] = ' ';
+		array[9][13] = ' ';
+		for(int i = 10; i < 21; i++){
+		array[i][13] = ' ';
+		}
+
+		for (int i = 0; i < array.length; i++) {
+			for (int j = 0; j < array[i].length; j++) {
+				if (array[i][j] != ' ') {
+					array[i][j] = '*';
+				}
+			}
+		}
+
+		printArray(array);
+	}
+
+	private static void printArray(char[][] array) {
+		for (int i = 0; i < array.length; i++) {
+			for (int j = 0; j < array[i].length; j++) {
+				System.out.print(array[i][j] + " ");
+			}
+			System.out.println();
+		}
+	}
+}

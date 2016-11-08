@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ConsoleUI.java&apos; to &apos;Memory Match/src/edu.neumont.csc110.d.memory&apos;&#x0D;&#x0A;- Original project: &apos;ConsoleIO&apos;&#x0D;&#x0A;- Destination element: &apos;Memory Match/src/edu.neumont.csc110.d.memory&apos;&#x0D;&#x0A;- Original element: &apos;ConsoleUI.java&apos;" description="Copy compilation unit" destination="=Memory Match/src&lt;edu.neumont.csc110.d.memory" element1="/src&lt;{ConsoleUI.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1477509303918" units="1" version="1.0"/>
+</session>
