@@ -1,3 +1,5 @@
-GitRepositoriesView.GitDirectories=
-GitRepositoriesView.GitDirectories.relative=
+GitRepositoriesView.GitDirectories=C\:\\Users\\Alex\\workspace\\Tic-Tac-Toe\\.git;
+GitRepositoriesView.GitDirectories.relative=Tic-Tac-Toe\\.git;
+RepositorySearchDialogSearchPath=C\:\\Users\\Alex\\workspace
+core_defaultRepositoryDir=C\:\\Users\\Alex\\workspace
 eclipse.preferences.version=1
