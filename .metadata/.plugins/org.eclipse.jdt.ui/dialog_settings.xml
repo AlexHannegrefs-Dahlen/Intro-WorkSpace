@@ -50,14 +50,16 @@
 	</section>
 	<section name="FatJarPackageWizard">
 		<item value="C:\Users\Alex\workspace" key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION"/>
-		<item value="ListOfFriends - ArrayListPractice" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
-		<item value="C:\Users\Alex\Desktop\Friends List.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
+		<item value="RunTicTacToe - Tic-Tac-Toe" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
+		<item value="C:\Users\Alex\Desktop\TicTacToe.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
 		<item value="false" key="FatJarPackageWizardPage.ANTSCRIPT_SAVE"/>
 		<item value="1" key="FatJarPackageWizardPage.LIBRARY_HANDLING"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\Alex\Desktop\TicTacToe.jar"/>
 			<item value="C:\Users\Alex\Desktop\Friends List.jar"/>
 		</list>
 		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
+			<item value="C:\Users\Alex\workspace.xml"/>
 			<item value=".xml"/>
 		</list>
 	</section>
