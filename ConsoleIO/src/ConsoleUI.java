@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 
 public class ConsoleUI {
 	static BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
@@ -24,10 +25,10 @@ public class ConsoleUI {
 		}
 		do {
 			valid = true;
-			System.out.println(options);
 			if (withQuit == true) {
-				System.out.println("0: Quit");
+				options[0] = "0: Quit";
 			}
+			System.out.println(Arrays.toString(options));
 			String user = in.readLine();
 			try {
 				value = Integer.parseInt(user);

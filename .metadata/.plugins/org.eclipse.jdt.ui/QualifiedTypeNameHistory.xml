@@ -40,11 +40,16 @@
 <fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="tic.tac.toe.Board"/>
 <fullyQualifiedTypeName name="tic.tac.toe.Square"/>
-<fullyQualifiedTypeName name="java.util.Random"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.lang.Number"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="Nilrre.Jason.Alex.Law.ConsoleUI"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="Nilrre.Jason.Alex.Law.Player"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="Nilrre.Jason.Alex.Law.GamePieces"/>
+<fullyQualifiedTypeName name="java.lang.management.ThreadInfo"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
 </qualifiedTypeNameHistroy>
