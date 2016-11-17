@@ -1,0 +1,42 @@
+package Nilrre.Jason.Alex.Law;
+
+import java.util.ArrayList;
+
+public class GamePieces {
+	private boolean taken;
+	private static GamePieces Thimble;
+	private static GamePieces Wheel_Barrow;
+	private static GamePieces Boot;
+	private static GamePieces Dog;
+	private static GamePieces RaceCar;
+	private static GamePieces Iron;
+	private static GamePieces Battleship;
+	private static GamePieces Tophat;
+	private static ArrayList<GamePieces> pieces = new ArrayList<GamePieces>();
+	
+	public static ArrayList<GamePieces> getPieces(){
+		return GamePieces.pieces;
+	}
+	
+	public static void makeGamePieces(){
+		GamePieces.pieces.set(0, Thimble);
+		GamePieces.pieces.set(1, Wheel_Barrow);
+		GamePieces.pieces.set(2, Boot);
+		GamePieces.pieces.set(3, Dog);
+		GamePieces.pieces.set(4, RaceCar);
+		GamePieces.pieces.set(5, Iron);
+		GamePieces.pieces.set(6, Battleship);
+		GamePieces.pieces.set(7, Tophat);
+	}
+	
+	public static boolean checkIfTaken(GamePieces piece){	
+		if (piece.taken){
+			return true;
+		}
+		return false;
+	}
+	
+	public static void takePiece(GamePieces piece){
+		piece.taken = true;
+	}
+}
