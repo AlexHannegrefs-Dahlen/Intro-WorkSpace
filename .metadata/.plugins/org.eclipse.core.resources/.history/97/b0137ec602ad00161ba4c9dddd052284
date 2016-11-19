@@ -1,0 +1,37 @@
+package Nilrre.Jason.Alex.Law;
+
+public class GamePieces {
+	private boolean taken;
+
+	enum diffPieces {
+		Thimble, Wheel_Barrow, Boot, Dog, RaceCar, Iron, Battleship, Tophat
+	}
+
+	private static GamePieces.diffPieces[] pieces = new GamePieces[8];
+
+	public static GamePieces[] getPieces() {
+		return GamePieces.pieces;
+	}
+
+	public static void makeGamePieces() {
+		GamePieces.pieces[0] = GamePieces.diffPieces.Thimble;
+		GamePieces.pieces[1] = GamePieces.diffPieces.Wheel_Barrow;
+		GamePieces.pieces[2] = Boot;
+		GamePieces.pieces[3] = Dog;
+		GamePieces.pieces[4] = RaceCar;
+		GamePieces.pieces[5] = Iron;
+		GamePieces.pieces[6] = Battleship;
+		GamePieces.pieces[7] = Tophat;
+	}
+
+	public static boolean checkIfTaken(GamePieces piece) {
+		if (piece.taken) {
+			return true;
+		}
+		return false;
+	}
+
+	public static void takePiece(GamePieces piece) {
+		piece.taken = true;
+	}
+}
