@@ -49,12 +49,14 @@
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.lang.management.ThreadInfo"/>
 <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
-<fullyQualifiedTypeName name="Nilrre.Jason.Alex.Law.Chance_Cards"/>
-<fullyQualifiedTypeName name="Nilrre.Jason.Alex.Law.Community_Cards"/>
-<fullyQualifiedTypeName name="Nilrre.Jason.Alex.Law.BoardSpaces"/>
 <fullyQualifiedTypeName name="Nilrre.Jason.Alex.Law.BoardSpaces.SpaceType"/>
 <fullyQualifiedTypeName name="Nilrre.Jason.Alex.Law.GamePieces.diffPieces"/>
 <fullyQualifiedTypeName name="Nilrre.Jason.Alex.Law.GamePieces"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="Nilrre.Jason.Alex.Law.Player"/>
+<fullyQualifiedTypeName name="Nilrre.Jason.Alex.Law.Chance_Cards"/>
+<fullyQualifiedTypeName name="Nilrre.Jason.Alex.Law.Community_Cards"/>
+<fullyQualifiedTypeName name="Nilrre.Jason.Alex.Law.UpgradeLand"/>
+<fullyQualifiedTypeName name="Nilrre.Jason.Alex.Law.BoardSpaces"/>
+<fullyQualifiedTypeName name="Nilrre.Jason.Alex.Law.Board"/>
 </qualifiedTypeNameHistroy>
