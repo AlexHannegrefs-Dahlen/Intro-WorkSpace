@@ -2,30 +2,30 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Game.returnPlayerEight" key="selection"/>
+		<item value="" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="for(int i = 1; i &lt; 11; i++){"/>
+			<item value="int col = 0;"/>
+			<item value="int row = 0;"/>
+			<item value="moved to"/>
 			<item value="Player8"/>
 			<item value="Player7"/>
 			<item value="Player6"/>
 			<item value="Player5"/>
-			<item value="Player4"/>
-			<item value="Player3"/>
-			<item value="Player2"/>
-			<item value="squares[2][2] ="/>
 		</list>
 		<list key="replacehistory">
+			<item value=""/>
+			<item value="int col = space[0];"/>
+			<item value="int row = space[0];"/>
 			<item value="Game.returnPlayerEight"/>
 			<item value="Game.returnPlayerSeven"/>
 			<item value="Game.returnPlayerSix"/>
 			<item value="Game.returnPlayerFive"/>
 			<item value="Game.returnPlayerFour"/>
-			<item value="Game.returnPlayerThree"/>
-			<item value="Game.returnPlayerTwo"/>
-			<item value="squares[2][2].SpaceMarker ="/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

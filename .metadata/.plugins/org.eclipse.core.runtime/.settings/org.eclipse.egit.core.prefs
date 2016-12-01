@@ -1,5 +1,5 @@
-GitRepositoriesView.GitDirectories=C\:\\Users\\Alex\\workspace\\.git;C\:\\.git;
-GitRepositoriesView.GitDirectories.relative=.git;C\:\\.git;
+GitRepositoriesView.GitDirectories=C\:\\Users\\Alex\\workspace\\Monopoly\\.git;C\:\\.git;C\:\\Users\\Alex\\workspace\\.git;
+GitRepositoriesView.GitDirectories.relative=Monopoly\\.git;C\:\\.git;.git;
 RepositorySearchDialogSearchPath=C\:\\Users\\Alex\\workspace
 core_defaultRepositoryDir=C\:\\Users\\Alex\\workspace
 eclipse.preferences.version=1
