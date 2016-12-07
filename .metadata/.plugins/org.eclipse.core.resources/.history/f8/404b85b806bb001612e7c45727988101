@@ -1,0 +1,22 @@
+package alex.winter_break.test;
+
+import java.io.IOException;
+
+public class Sale {
+	private static double total = 0;
+	
+	public static double sellProduct() throws IOException{
+		boolean Continue = true;
+		do{
+			double salePrice = ConsoleUI.promptForDouble("Enter sale price", 0, Double.MAX_VALUE);
+			int quantity = ConsoleUI.promptForInt("Enter quantity", 1, Integer.MAX_VALUE);
+			total += (salePrice * quantity);
+			Continue = ConsoleUI.promptForBool("Would you like buy more? [y/n]", "y", "n");
+		}while(!Continue);
+		boolean addTax = ConsoleUI.promptForBool("Would you like to add tax [y/n]", "y", "n");
+		if(addTax){
+			total += (total * .075);
+		}
+		return total;
+	}
+}

@@ -1,0 +1,7 @@
+package alex.winter_break.test;
+
+public class Fraction {
+	public static void fractionMenu(){
+		
+	}
+}

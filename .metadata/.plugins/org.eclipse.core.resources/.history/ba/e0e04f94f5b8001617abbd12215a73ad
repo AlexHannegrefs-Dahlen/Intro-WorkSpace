@@ -1,0 +1,13 @@
+package alex.winter_break.test;
+
+import java.util.ArrayList;
+
+public class Add {
+	public static double addAllNumbers(ArrayList<Double> numbers){
+		int sum = 0;
+		for(int i = 0; i < numbers.size(); i++){
+			sum += numbers.get(i);
+		}
+		return sum;
+	}
+}

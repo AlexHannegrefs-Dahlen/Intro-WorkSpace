@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="calculatorfunctions.calcfunc"/>
-<fullyQualifiedTypeName name="java.text.NumberFormat"/>
-<fullyQualifiedTypeName name="java.util.Currency"/>
-<fullyQualifiedTypeName name="java.text.DecimalFormat"/>
-<fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
 <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
 <fullyQualifiedTypeName name="java.lang.CharSequence"/>
@@ -31,7 +25,6 @@
 <fullyQualifiedTypeName name="Player"/>
 <fullyQualifiedTypeName name="tic.tac.toe.Game"/>
 <fullyQualifiedTypeName name="java.io.Console"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="tic.tac.toe.Player"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="tic.tac.toe.ConsoleUI"/>
@@ -40,9 +33,7 @@
 <fullyQualifiedTypeName name="tic.tac.toe.Square"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
 <fullyQualifiedTypeName name="java.lang.Number"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.lang.management.ThreadInfo"/>
 <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
@@ -51,7 +42,6 @@
 <fullyQualifiedTypeName name="Nilrre.Jason.Alex.Law.GamePieces"/>
 <fullyQualifiedTypeName name="Nilrre.Jason.Alex.Law.UpgradeLand"/>
 <fullyQualifiedTypeName name="Nilrre.Jason.Alex.Law.Player"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="Nilrre.Jason.Alex.Law.Game"/>
 <fullyQualifiedTypeName name="Nilrre.Jason.Alex.Law.Chance_Cards"/>
 <fullyQualifiedTypeName name="Nilrre.Jason.Alex.Law.Community_Cards"/>
@@ -60,4 +50,14 @@
 <fullyQualifiedTypeName name="Nilrre.Jason.Alex.Law.BoardSpaces"/>
 <fullyQualifiedTypeName name="Nilrre.Jason.Alex.Law.BoardSpaces.SpaceColor"/>
 <fullyQualifiedTypeName name="Nilrre.Jason.Alex.Law.ConsoleUI"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="alex.winter_break.test.Subtract"/>
+<fullyQualifiedTypeName name="alex.winter_break.test.Mutiply"/>
+<fullyQualifiedTypeName name="alex.winter_break.test.Divide"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="alex.winter_break.test.Multiple_Functions"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="alex.winter_break.test.ConsoleUI"/>
 </qualifiedTypeNameHistroy>
