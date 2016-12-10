@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ConsoleUI.java&apos; to &apos;MasterMind/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;Calculator&apos;&#x0D;&#x0A;- Destination element: &apos;MasterMind/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;alex.winter_break.test.ConsoleUI.java&apos;" description="Copy compilation unit" destination="=MasterMind/src&lt;" element1="/src&lt;alex.winter_break.test{ConsoleUI.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1481159707946" units="1" version="1.0"/>
+</session>
