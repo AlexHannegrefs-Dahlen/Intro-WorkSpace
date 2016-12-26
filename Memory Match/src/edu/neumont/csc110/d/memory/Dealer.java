@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Random;
 
 public class Dealer {
-	String[] messages = { "Apple", "Orange", "Peach", "Pear", "Tomato", "Mango", "Avacado", "Carrot" };
+	String[] messages = { "Apple", "Orange", "Peach", "Pear", "Tomato", "Mango", "Avacado", "Carrot", "Banana" };
 	public Card[] cards;
 
 	Random gen = new Random();
@@ -33,7 +33,7 @@ public class Dealer {
 	public int pickCards(String prompt) throws IOException {
 		int index = -1;
 		while (index == -1) {
-			index = ConsoleUI.promptForInt(prompt, 0, cards.length - 1);
+			index = ConsoleUI.promptForInt(prompt, 0, cards.length) - 1;
 			if (cards[index].shown) {
 				index = -1;
 			}
@@ -75,7 +75,7 @@ public class Dealer {
 
 	public void printCards(boolean showALL) {
 		for (int i = 0; i < cards.length; i++) {
-			System.out.print(i + " ");
+			System.out.print(i + 1 + " ");
 			if (cards[i].shown || showALL) {
 				System.out.println(cards[i].message);
 			} else {
@@ -83,5 +83,4 @@ public class Dealer {
 			}
 		}
 	}
-
 }

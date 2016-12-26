@@ -1,6 +1,6 @@
-//import java.io.BufferedReader;
-//import java.io.IOException;
-//import java.io.InputStreamReader;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 import edu.neumont.csc110.d.customtypes.Weekday;
 
@@ -16,7 +16,8 @@ public class Hello_World{
 
 		Season mySeasonVariable  = Season.Winter;
 		
-		Weekday day = Weekday.Wednesday;
+		//Weekday day = Weekd
+		System.out.print("Reed");
 		/*
 		InputStreamReader InputReader = new InputStreamReader(System.in);
         BufferedReader BufferedReader = new BufferedReader(InputReader);
