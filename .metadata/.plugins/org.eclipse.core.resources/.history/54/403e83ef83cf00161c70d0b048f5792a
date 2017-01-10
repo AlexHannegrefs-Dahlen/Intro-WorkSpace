@@ -1,0 +1,75 @@
+import java.io.IOException;
+import java.util.ArrayList;
+
+public class Game {
+
+	private static ArrayList<Player> Players = new ArrayList<>();
+	private static Player one = new Player();
+	private static Player two = new Player();
+	private static Player three = new Player();
+	private static Player four = new Player();
+	private static Player five = new Player();
+	private static Player six = new Player();
+	private static Player seven = new Player();
+	private static Player eight = new Player();
+	private static Player nine = new Player();
+	private static Player ten = new Player();
+
+	public static void main(String[] args) throws IOException {
+
+		int players = ConsoleUI.promptForInt("How many players? [1-10]", 1, 10);
+		for (int i = 1; i <= players; i++) {
+			if (i == 1) {
+				Players.add(one);
+				Player.setName(one, ConsoleUI.promptForInput("Player \"one,\" what is your name?", false));
+			} else if (i == 2) {
+				Players.add(two);
+				Player.setName(two, ConsoleUI.promptForInput("Player \"two,\" what is your name?", false));
+			} else if (i == 3) {
+				Players.add(three);
+				Player.setName(three, ConsoleUI.promptForInput("Player \"three,\" what is your name?", false));
+			} else if (i == 4) {
+				Players.add(four);
+				Player.setName(four, ConsoleUI.promptForInput("Player \"four,\" what is your name?", false));
+			} else if (i == 5) {
+				Players.add(five);
+				Player.setName(five, ConsoleUI.promptForInput("Player \"five,\" what is your name?", false));
+			} else if (i == 6) {
+				Players.add(six);
+				Player.setName(six, ConsoleUI.promptForInput("Player \"six,\" what is your name?", false));
+			} else if (i == 7) {
+				Players.add(seven);
+				Player.setName(seven, ConsoleUI.promptForInput("Player \"seven,\" what is your name?", false));
+			} else if (i == 8) {
+				Players.add(eight);
+				Player.setName(eight, ConsoleUI.promptForInput("Player \"eight,\" what is your name?", false));
+			} else if (i == 9) {
+				Players.add(nine);
+				Player.setName(nine, ConsoleUI.promptForInput("Player \"nine,\" what is your name?", false));
+			} else if (i == 10) {
+				Players.add(ten);
+				Player.setName(ten, ConsoleUI.promptForInput("Player \"ten,\" what is your name?", false));
+			}
+
+		}
+
+		for (int i = 1; i < 13; i++) {
+			for (int j = 1; j < players + 1; j++) {
+				if (j == 1) {
+					Player.playersTurn(one);
+				}
+				if (j == 2) {
+
+				}
+			}
+		}
+		/*
+		 * String[] options = { "Ones", "Twos", "Threes", "Fours", "Fives",
+		 * "Sixes", "Three of a kind", "Four of a kind", "Fullhouse",
+		 * "Small Straight", "Large Straight", "Yahtzee", "Chance" };
+		 */
+		// int selection = ConsoleUI.promptForMenuSelection(options, false);
+
+	}
+
+}

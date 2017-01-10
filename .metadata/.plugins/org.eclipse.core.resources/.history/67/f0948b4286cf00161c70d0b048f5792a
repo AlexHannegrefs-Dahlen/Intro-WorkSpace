@@ -1,0 +1,15 @@
+import java.util.Random;
+
+public class Dice {
+	private static int amountRolled = 0;
+	
+	private Random gen = new Random();
+	
+	public int getAmountRolled(Dice rolled){
+		return rolled.amountRolled;
+	}
+	
+	public void roll(){
+		amountRolled = gen.nextInt(6) + 1;
+	}
+}
